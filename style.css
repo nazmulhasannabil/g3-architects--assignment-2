@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-decoration: none;
+}
+
+
+/* ----------------
+       Section-1
+------------------- */
+
+
+
+.section-1 {
+    background: #FF900E1A;
+    width: 100%;
+    height: 1322px;
+}
+
+.headtitle {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.navbar {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
+
+}
+
+/* .unorderd-list {} */
+
+.ordered-list {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+
+}
+
+.ordered-list a {
+    color: white;
+}
+
+.title-main {
+    margin-top: 102px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.sub-title-main {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.btn-main {
+    margin-top: 30px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.landing-cover {
+    padding-top: 50px;
+    width: 1440px;
+    height: 700px;
+    /* display: block; */
+    margin: auto;
+
+}
+
+/* ----------------
+       Section-2
+------------------- */
+
+.section-2 {
+    /* margin-top: 80px; */
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.photo {
+    margin-top: 30px;
+    width: 50%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.photo-info {
+    margin: auto;
+    width: 40%;
+}
+
+.section-2-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.section-2-title-1 {
+    color: gray;
+}
+
+.section-2-title-2 {
+    color: orange;
+}
+
+.section-2-subtitle {
+    margin-top: 24px;
+}
+
+.section-2-btn {
+    margin-top: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+/* ----------------
+      section-3
+---------------- */
+
+.section-3 {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+.info {
+    width: 40%;
+}
+
+.title-3 {
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid orangered;
+    margin-bottom: 20px;
+}
+
+.sub-title-3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.section-3-sub-part {
+
+    height: 171px;
+    background: #ffffff;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.title-302 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sub-title-302 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.photo-section-3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 800px;
+    height: 1059px;
+    margin-left: 80px;
+
+}
+
+.img-section-3 {
+    width: 708px;
+    height: 982px;
+
+
+}
+
+.btn-section-3 {
+    position: relative;
+    left: -320px;
+    top: -40px;
+}
+
+
+/*---------------- 
+     section-4
+--------------- */
+
+.section-4 {
+    margin: auto;
+    width: 85%;
+}
+
+.title-4{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+ .subtitle-4{
+    font-weight: 400;
+font-size: 16px;
+ }
+.all-icon-container{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.icon-facts{
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100px;
+height: 100px;
+    
+}
+.fact-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.number{
+    margin-bottom: 10px;
+}
+/*-----------------
+    section-5
+----------------- */
+.section-5 {
+    margin: auto;
+    width: 85%;
+}
+.info-5{
+    text-align: center;
+    font-weight: 700;
+font-size: 25px;
+}
+.info-title-5{
+    margin-bottom: 20px;
+}
+.info-sub-title-5{
+    font-weight: 400;
+font-size: 16px;
+}
+.all-sponsor-container{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.fact-icon-sponsor{
+    filter: grayscale(1);
+}
+
+
+/* -------------
+      footer 
+----------------*/
+
+.footer{
+    margin: auto;
+    width: 85%;
+    background: #FFF4E7;
+    height: 700px;
+height: 100px;
+border-radius: 8px;
+margin-bottom:80px ;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info{
+    color: gray;
+    font-weight: 400;
+}
+
